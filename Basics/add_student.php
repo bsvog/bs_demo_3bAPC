@@ -1,6 +1,6 @@
 ﻿<?php
 session_start();
-
+# another change # 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'] ?? '';
     $age = $_POST['age'] ?? '';
